@@ -1,0 +1,6 @@
+<div class="details-page">
+  <h1>Detalhes do Produto</h1>
+  <p *ngIf="id">ID do produto: {{ id }}</p>
+  <p *ngIf="!id">Nenhum ID fornecido.</p>
+  <a routerLink="/products">Voltar para Produtos</a>
+</div>

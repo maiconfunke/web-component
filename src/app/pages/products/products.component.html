@@ -1,0 +1,8 @@
+<div class="products-page">
+  <h1>Produtos</h1>
+  <ul>
+    <li *ngFor="let p of products">
+      <a [routerLink]="['/products/details']" [queryParams]="{ id: p.id }">{{ p.name }}</a>
+    </li>
+  </ul>
+</div>

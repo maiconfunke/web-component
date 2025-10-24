@@ -11,6 +11,7 @@ bootstrapApplication(AppComponent, appConfig)
       if (!customElements.get('bankline-pf-investimentos-catalogo')) {
         customElements.define('bankline-pf-investimentos-catalogo', el);
       }
+      
     } catch (e) {
       console.error('Failed to define custom element', e);
     }

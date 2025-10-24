@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'bankline-pf-investimentos-catalogo',
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
